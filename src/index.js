@@ -6,7 +6,7 @@ const insertToFile = 'README.md'
 
 let data = readFileSync(file, { encoding: 'utf-8' })
 
-data = data.replace('%{{chance-date}}%', '###New data')
+data = data.replace('%{{chance-date}}%', new Date())
 
 writeFileSync(insertToFile, data)
 
