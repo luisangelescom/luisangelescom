@@ -40,4 +40,4 @@
 
 
 
-###New data
+%{{chance-date}}%

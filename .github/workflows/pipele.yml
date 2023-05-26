@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
 
 jobs:
   build:
@@ -16,7 +18,12 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: latest
-      - name: Test version node
-        run: |
-          node --version
+          node-version: 18.14.0
+      - run: npm install
+      - run: npm run start
+      - run: |
+          git config user.name luisangelescom
+          git config user.email luis20.lgi@gmail.com
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
+          git push origin master
