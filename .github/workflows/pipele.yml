@@ -17,5 +17,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: latest
-          run: |
-            node --version
+      - name: Test version node
+        run: |
+          node --version
