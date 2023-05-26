@@ -22,8 +22,8 @@ jobs:
       - run: npm install
       - run: npm run start
       - run: |
-          git config user.name luisangelescom
-          git config user.email luis20.lgi@gmail.com
+          git config --global user.name luisangelescom
+          git config --global user.email luis20.lgi@gmail.com
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
           git push origin main
