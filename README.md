@@ -15,7 +15,7 @@
 
 <br>
 
-### <h3 style="color:#576CBC;text-align:center;">Habilidades</h3>
+###<h3 style="color:#576CBC;text-align:center;">Habilidades</h3>
 
 
 - Desarrollo backend: Node.js, Java, Nest js, Laravel
@@ -23,7 +23,7 @@
 - Bases de datos: MongoDB, MySQL, PostgreSQL
 - Control de versiones: Git
 
-### <h3 style="color:#576CBC;text-align:center;">Proyectos Destacados</h3>
+###<h3 style="color:#576CBC;text-align:center;">Proyectos Destacados</h3>
 
 <div style="padding:30px 0px">
 
@@ -33,7 +33,7 @@
 - [Clon-Twitter (<img title="Vite" src="./vite.svg" alt="Banner Image" width="18" height="18">)](https://movies-two-teal.vercel.app/react/twitter)
 
 </div>
-### <h3 style="color:#576CBC;text-align:center;">Contacto</h3>
+###<h3 style="color:#576CBC;text-align:center;">Contacto</h3>
 
 
 - [:link: LinkedIn - Luis Angel Gonzalez](https://mx.linkedin.com/in/luis-angel-g%C3%B3nzalez-ambriz-7b0960120)
