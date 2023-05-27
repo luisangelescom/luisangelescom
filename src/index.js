@@ -1,7 +1,7 @@
 
 import { readFileSync, writeFileSync } from 'fs'
 
-const file = './src/template.md.tpl'
+const file = './src/template.md.md'
 const insertToFile = 'README.md'
 
 let data = readFileSync(file, { encoding: 'utf-8' })
