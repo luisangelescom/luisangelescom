@@ -3,7 +3,7 @@
 <div 
 	align="center"
 	style="width:100%;height:200px; display:flex; justify-content:center; align-items:center;">
-		<img title="Astro" style="border-radius:50%; width:150px;" src="https://thumbs.dreamstime.com/b/robot-feliz-de-la-historieta-76822003.jpg" alt="Banner Image">
+		<img title="Astro" style="border-radius:50%; width:150px;" src="./robot.svg" alt="Banner Image">
 </div>
 <br/>
 
@@ -53,4 +53,4 @@
 
 
 
-Sat May 27 2023 06:09:20 GMT+0000 (Coordinated Universal Time)
+Sat May 27 2023 05:43:43 GMT+0000 (Coordinated Universal Time)
