@@ -39,5 +39,3 @@
 - [:pen: CV](https://portafolio-luis-angel-gonzalez.vercel.app/)
 
 
-
-Sat May 27 2023 05:37:41 GMT+0000 (Coordinated Universal Time)
